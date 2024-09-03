@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrera de Vendedores</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Carrera de Ventas</h1>
+        <div class="button-container">
+            <!-- Botones para agregar ventas -->
+            <button onclick="addSale('vendedor1')">Agregar Venta Vendedor 1</button>
+            <button onclick="addSale('vendedor2')">Agregar Venta Vendedor 2</button>
+            <button onclick="addSale('vendedor3')">Agregar Venta Vendedor 3</button>
+            <button onclick="addSale('vendedor4')">Agregar Venta Vendedor 4</button>
+            <button onclick="addSale('vendedor5')">Agregar Venta Vendedor 5</button>
+            <button onclick="addSale('vendedor6')">Agregar Venta Vendedor 6</button>
+            <button onclick="addSale('vendedor7')">Agregar Venta Vendedor 7</button>
+            <button onclick="addSale('vendedor8')">Agregar Venta Vendedor 8</button>
+            <button onclick="addSale('vendedor9')">Agregar Venta Vendedor 9</button>
+            <button onclick="addSale('vendedor10')">Agregar Venta Vendedor 10</button>
+            <button onclick="addSale('vendedor11')">Agregar Venta Vendedor 11</button>
+            <button onclick="addSale('vendedor12')">Agregar Venta Vendedor 12</button>
+        </div>
+        <div class="race-track" id="raceTrack">
+            <!-- 12 autos con identificadores únicos -->
+            <div class="car" id="vendedor1" data-progress="0">
+                <span>Vendedor 1</span>
+            </div>
+            <div class="car" id="vendedor2" data-progress="0">
+                <span>Vendedor 2</span>
+            </div>
+            <div class="car" id="vendedor3" data-progress="0">
+                <span>Vendedor 3</span>
+            </div>
+            <div class="car" id="vendedor4" data-progress="0">
+                <span>Vendedor 4</span>
+            </div>
+            <div class="car" id="vendedor5" data-progress="0">
+                <span>Vendedor 5</span>
+            </div>
+            <div class="car" id="vendedor6" data-progress="0">
+                <span>Vendedor 6</span>
+            </div>
+            <div class="car" id="vendedor7" data-progress="0">
+                <span>Vendedor 7</span>
+            </div>
+            <div class="car" id="vendedor8" data-progress="0">
+                <span>Vendedor 8</span>
+            </div>
+            <div class="car" id="vendedor9" data-progress="0">
+                <span>Vendedor 9</span>
+            </div>
+            <div class="car" id="vendedor10" data-progress="0">
+                <span>Vendedor 10</span>
+            </div>
+            <div class="car" id="vendedor11" data-progress="0">
+                <span>Vendedor 11</span>
+            </div>
+            <div class="car" id="vendedor12" data-progress="0">
+                <span>Vendedor 12</span>
+            </div>
+        </div>
+        <div id="podium" class="hidden">
+            <!-- Aquí se mostrará el podio con los ganadores -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
